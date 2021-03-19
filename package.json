@@ -1,0 +1,14 @@
+{
+  "name": "reto-web",
+  "version": "1.0.0",
+  "description": "reto web",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "reto"
+  ],
+  "author": "Arturo Moreton",
+  "license": "ISC"
+}
