@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './PhoneCard.css'
 import { Card } from 'react-bootstrap'
 
 class PhoneCard extends Component {
@@ -8,7 +9,7 @@ class PhoneCard extends Component {
         if (!phone) return (<div></div>)
 
         return (
-            <>
+            <div className="phone-card">
 
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={'http://localhost:5001/images/' + phone.imageFileName} />
@@ -40,7 +41,7 @@ class PhoneCard extends Component {
 
 
 
-            </>
+            </div>
         )
     }
 }

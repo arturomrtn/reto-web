@@ -1,20 +1,35 @@
-# Reto Web
+# The Phone Cave
 
 
-| 1 | 2 |
----------
-| A | B |
+- Esta aplicación nos muestra un listado de diferentes teléfonos, a los que podremos acceder a sus detalles clicando sobre cada uno de ellos.
 
-- entrada
+- Pronto la aplicación incluirá nuevas funcionalidades, como la posibilidad de crear tu propio usuario y añadir nuevos teléfonos a la lista.
 
-| Primer encabezado | Segundo encabezado |
-| ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
+## Instrucciones
 
-markdownfireball
+- Hacer ´git clone´ sobre la url de este repositorio.
+- Hacer ´npm install´ para la instalación de las dependencias necesarias.
+- Para ejecutar el servidor debemos utilizar ´npm run dev´ en localhost:5001.
 
-| Comando | Descripción |
-| --- | --- |
-| git status | Enumera todos los archivos nuevos o modificados |
-| git diff | Muestra las diferencias de archivo que no han sido preparadas |
+- Para ejecutar el cliente debemos utilizar ´npm start´ en localhost:3001.
+
+- Solamente he utilizado un endpoint, cuyo objetivo es traer la información relativa a los detalles de los teléfonos:
+
+| Método | Endpoint | 
+| ------------- | ------------- | 
+| GET  | /teléfonos  |
+------------------
+
+## Tecnologías empleadas
+
+- HTML
+- CSS
+- JavaScript
+- React
+- React Bootstrap
+- Node
+- Cors
+
+
+
+

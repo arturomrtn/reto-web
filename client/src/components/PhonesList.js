@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import getPhones from '../service/PhonesService'
 import PhoneCard from './PhoneCard'
+import './PhonesList.css'
 import ClipLoader from "react-spinners/ClipLoader";
+
 
 export default class PhonesList extends Component {
     constructor(props) {
@@ -34,7 +36,7 @@ export default class PhonesList extends Component {
         const { phonesList, selectedPhone, isLoading } = this.state
 
         return (
-            <div>
+            <div className="phones-list">
              <ClipLoader loading={isLoading} size={150} />
 
               {
