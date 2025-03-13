@@ -1,26 +1,26 @@
 # The Phone Cave
 
 
-- Esta aplicación nos muestra un listado de diferentes teléfonos, a los que podremos acceder a sus detalles clicando sobre cada uno de ellos.
+- This app shows a list of different phones, whose details can be accessed by clicking on each one.
 
-- Pronto la aplicación incluirá nuevas funcionalidades, como la posibilidad de crear tu propio usuario y añadir nuevos teléfonos a la lista.
+## Instructions
 
-## Instrucciones
+- Run 'git clone' on the URL of this repository.
 
-- Hacer ´git clone´ sobre la url de este repositorio.
-- Hacer ´npm install´ para la instalación de las dependencias necesarias.
-- Para ejecutar el servidor debemos utilizar ´npm run dev´ en localhost:5001.
+- Run 'npm install' to install the necessary dependencies.
 
-- Para ejecutar el cliente debemos utilizar ´npm start´ en localhost:3001.
+- To run the server, use 'npm run dev' on localhost:5001.
 
-- Solamente he utilizado un endpoint, cuyo objetivo es traer la información relativa a los detalles de los teléfonos:
+- To run the client, use 'npm start' on localhost:3001.
+
+- I only used one endpoint, which is intended to retrieve information regarding the phone details:
 
 | Método | Endpoint | 
 | ------------- | ------------- | 
 | GET  | /teléfonos  |
 ------------------
 
-## Tecnologías empleadas
+## Tehnologies used
 
 - HTML
 - CSS
