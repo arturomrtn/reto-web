@@ -20,5 +20,5 @@ app.use('/images', express.static('images'));
 
 
 app.listen(port, () => {
- console.log("El servidor está inicializado en el puerto "+port);
+ console.log("The server is initialized on port"+port);
 });
